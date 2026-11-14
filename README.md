@@ -1,6 +1,6 @@
 # Headly — AI-Powered Headless CMS Platform (MVP)
 
-Recruiter-ready MVP of a headless CMS dashboard inspired by a production tourism CMS. Attach a website, turn page HTML sections into JSON content APIs, manage blog posts, users (RBAC), SEO, and activity logs.
+MVP of a headless CMS dashboard inspired by a production tourism CMS. Attach a website, turn page HTML sections into JSON content APIs, manage blog posts, users (RBAC), SEO, and activity logs.
 
 **Live demo:** https://headly-cms-beta.vercel.app  
 **API:** https://headly-api.vercel.app  
