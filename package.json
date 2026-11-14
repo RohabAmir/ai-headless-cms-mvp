@@ -1,0 +1,21 @@
+{
+  "name": "ai-headless-cms-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headly — AI-Powered Headless CMS Platform MVP (Next.js + NestJS + Postgres)",
+  "scripts": {
+    "db:local": "pglite-server -d ./.pglite/data -p 5433 -m 10",
+    "db:up": "docker compose up -d postgres",
+    "db:down": "docker compose down",
+    "api:dev": "npm --prefix backend run start:dev",
+    "api:build": "npm --prefix backend run build",
+    "api:start": "npm --prefix backend run start:prod",
+    "api:seed": "npm --prefix backend run seed",
+    "web:dev": "npm --prefix frontend run dev",
+    "dev": "echo \"Run in 3 terminals: npm run db:local && npm run api:dev && npm run web:dev\""
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.16",
+    "@electric-sql/pglite-socket": "^0.2.19"
+  }
+}
