@@ -2,7 +2,12 @@
 
 Recruiter-ready MVP of a headless CMS dashboard inspired by a production tourism CMS. Attach a website, turn page HTML sections into JSON content APIs, manage blog posts, users (RBAC), SEO, and activity logs.
 
-**Stack:** Next.js (shadcn/ui) · NestJS · PostgreSQL (PGlite locally / Docker Compose)
+**Live demo:** https://headly-cms-beta.vercel.app  
+**API:** https://headly-api.vercel.app  
+**Login:** `admin@cms.com` / `Admin@123`  
+**Repo:** https://github.com/RohabAmir/ai-headless-cms-mvp
+
+**Stack:** Next.js (shadcn/ui) · NestJS · PostgreSQL (Neon in prod / PGlite locally)
 
 ## Quick start
 
